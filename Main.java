@@ -1,22 +1,23 @@
 package edu.cscc;
+import java.util.*;
+
 import java.util.Scanner;
 
-// Jd King. This program computes a circle's area and perimeter based off the user input of the circle's radius
+// TODO add comments with your name and the purpose of the program
 public class Main {
 
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        double radius, area, perimeter;
-
-        Scanner input = new Scanner(System.in);
-
-        System.out.println("Please enter the circle's radius");
-        radius = input.nextDouble();
-        area = (Math.PI * Math.pow(radius, 2));
-         = (2 * Math.PI * radius);
-        System.out.println("The area of your circle with radius of" + ""radius"" + "is"" + "area"");
-
-
+        String productName;
+        int count;
+        double productCost, total, average;
+        System.out.println("Products that cost $100.00 or more");
+        System.out.print("Enter the product ordered - type 'stop' to end: ");
+        productName = input.next();
+        System.out.print("Enter the cost of the product ordered: ");
+        productCost = input.nextDouble();
+        input.nextLine();
     }
 }
+
